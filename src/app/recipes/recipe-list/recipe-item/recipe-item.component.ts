@@ -13,6 +13,8 @@ export class RecipeItemComponent {
   // Value can be injected from another component.
   @Input()
   recipe: Recipe;
+  @Input()
+  index: number;
 
 /*  @Output()
   recipeSelected = new EventEmitter<void>();*/
