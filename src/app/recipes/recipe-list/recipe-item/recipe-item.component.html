@@ -1,10 +1,8 @@
-<!-- the list of recipes displayed on the left side with the name, description and image -->
 <a
-  style="cursor: pointer"
+  style="cursor: pointer;"
   [routerLink]="[index]"
   routerLinkActive="active"
-  (click)="onSelected()"
-  class="list-group-item clearfix" >
+  class="list-group-item clearfix">
   <div class="pull-left">
     <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
     <p class="list-group-item-text">{{ recipe.description }}</p>
