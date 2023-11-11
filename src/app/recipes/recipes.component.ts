@@ -7,7 +7,8 @@ import { RecipeService } from './recipe.service';
   selector: 'app-recipes',
   templateUrl: './recipes.component.html',
   styleUrls: ['./recipes.component.css'],
-  providers: [RecipeService]
+  // should be removed, share the same instance, if go back to upper component, this service instance is destroyed
+  //providers: [RecipeService]
 })
 export class RecipesComponent {
 
